@@ -1,0 +1,9 @@
+.container {
+    height: 100%;
+    width: 80vw;
+    margin: 0 auto;
+}
+.button {
+    width: 200px;
+    height: 40px;
+}

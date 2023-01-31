@@ -1,0 +1,25 @@
+.contact {
+    padding: 6.5rem 0;
+    background-color: #f5df4e;
+}
+.formStyle {
+
+}
+.formStyle label {
+    display: block;
+}
+.button {
+    width: 200px;
+    height: 40px;
+}
+.title {
+    margin: 0 0 48px 0;
+    font-size: 2.5rem;
+}
+.formStyle input {
+    width: 260px;
+}
+.formStyle textarea {
+    width: 260px;
+}
+

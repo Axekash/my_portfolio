@@ -1,0 +1,11 @@
+.socials {
+    display: flex;
+    width: 148px;
+    justify-content: space-between;
+
+}
+.socials div {
+    width: 26px;
+    height: 26px;
+    background-color: #8d898d;
+}
