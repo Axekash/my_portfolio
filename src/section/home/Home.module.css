@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    min-height: 92vh;
+    min-height: 97vh;
     flex-wrap: wrap;
 
 }
@@ -19,18 +19,23 @@
     margin: 40px 0;
 }
 .title {
+    /*font-size: 1.75rem;*/
     font-size: 1.75rem;
     margin: 0;
+    font-weight: 300;
 
 }
 .subtitle {
     margin: 0;
-    font-size: 3.1rem;
+    /*font-size: 3.1rem;*/
+    font-size: 4rem;
+    font-weight: 600;
 }
 .subsubtitle {
-    font-size: 1.2rem;
+    font-size: 1.3125rem;
     margin: 0;
     margin-bottom: 1rem;
+    font-weight: 300;
 }
 .blackButton {
     background-color: #212529;
@@ -54,4 +59,42 @@
 .whiteButton:hover {
     background-color: #8d898d;
     transition: 1s ease-in;
+}
+
+@media screen and (max-width: 1463px) {
+    .homeImage {
+        width: 350px;
+        height: 350px;
+    }
+    .title {
+        font-size: calc(1.75rem) ;
+    }
+    .subtitle {
+        font-size: calc(1.75rem + 2.45vw) ;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    .home {
+        flex-direction: column-reverse;
+        justify-content: center;
+
+    }
+    .homeImage {
+        width: 500px;
+        height: 500px;
+    }
+    .title {
+        font-size: calc(1.75rem + 2vw) ;
+    }
+    .subtitle {
+        font-size: calc(1.75rem + 4vw) ;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .homeImage {
+        max-width: 100%;
+        max-height: 80vw;
+    }
 }

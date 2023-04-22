@@ -36,6 +36,9 @@
     font-size: 1.7rem;
 }
 
-.information {
-
+@media screen and (max-width: 1046px) {
+    .wrapper {
+        justify-content: center;
+        text-align: center;
+    }
 }

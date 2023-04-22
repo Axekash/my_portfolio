@@ -1,3 +1,9 @@
 .main {
     background-color: gold;
 }
+
+/*@media screen and (max-width: 1262px) {*/
+/*        .main {*/
+/*            flex-direction: row-reverse;*/
+/*        }*/
+/*}*/

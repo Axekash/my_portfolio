@@ -1,5 +1,6 @@
 import * as React from 'react';
 import homeStyle from './Home.module.css'
+import image from '../../common/image/userImage.jpeg'
 
 type Props = {
 
@@ -14,8 +15,11 @@ export const Home = (props: Props) => {
                 <button className={homeStyle.blackButton}>View my works</button>
                 <button className={homeStyle.whiteButton}>Contact me</button>
             </div>
-            <div className={homeStyle.homeImage}>
-
+            <div className={homeStyle.homeImage}
+                 //style={{backgroundImage: `url(${image})` as any, backgroundRepeat: 'no-repeat'}}
+                style={{background: `url(${image}) center center/cover no-repeat`}}
+            >
+                {/*<img src={image} alt=""/>*/}
             </div>
         </section>
     );

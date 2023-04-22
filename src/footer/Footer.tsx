@@ -11,7 +11,7 @@ export const Footer = (props: Props) => {
                 <div className={footerStyle.wrapper}>
                     <h2 className={footerStyle.footer_title}>Alexandr Kuchutkov</h2>
                     <Socials />
-                    <h3 className={footerStyle.footer_subtitle}>Copyright © 2021 </h3>
+                    <h3 className={footerStyle.footer_subtitle}>Copyright © 2023 </h3>
                 </div>
             </div>
         </footer>
