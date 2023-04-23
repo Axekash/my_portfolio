@@ -2,7 +2,7 @@ import * as React from 'react';
 import headerStyle from './Header.module.css'
 import {Nav} from "../nav/Nav";
 import {Socials} from "../socials/Socials";
-import containerStyle from '../common/style/Container.module.css'
+import containerStyle from '../common/container/Container.module.css'
 
 
 type Props = {
@@ -13,7 +13,7 @@ export const Header = (props: Props) => {
         <div className={headerStyle.header}>
             <div className={containerStyle.container}>
                 <div className={headerStyle.wrapper}>
-                    <div>Alex Kuchutkov</div>
+                    <h2 className={headerStyle.userName}>Alexandr</h2>
                     <Nav />
                     <Socials />
                 </div>

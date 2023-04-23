@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    min-height: 97vh;
+    min-height: 100vh;
     flex-wrap: wrap;
 
 }
@@ -15,7 +15,7 @@
     height: 455px;
     background-color: red;
     border-radius: 100%;
-    border: 20px solid white;
+    border: 16px solid white;
     margin: 40px 0;
 }
 .title {
@@ -27,7 +27,6 @@
 }
 .subtitle {
     margin: 0;
-    /*font-size: 3.1rem;*/
     font-size: 4rem;
     font-weight: 600;
 }
@@ -75,22 +74,42 @@
 }
 
 @media screen and (max-width: 1260px) {
+    .title {
+        font-size: calc(1.75rem + 1vw) ;
+    }
+    .subtitle {
+        font-size: calc(1.75rem + 2vw) ;
+    }
+}
+@media screen and (max-width: 1140px) {
+    .title {
+        font-size: calc(1.75rem + 0.75vw) ;
+    }
+    .subtitle {
+        font-size: calc(1.75rem + 1.5vw) ;
+    }
+}
+
+@media screen and (max-width: 1036px) {
+    .title {
+        font-size: calc(1.75rem + 0.5vw) ;
+    }
+    .subtitle {
+        font-size: calc(1.75rem + 1vw) ;
+    }
+}
+
+@media screen and (max-width: 968px) {
     .home {
         flex-direction: column-reverse;
         justify-content: center;
-
     }
     .homeImage {
         width: 500px;
         height: 500px;
     }
-    .title {
-        font-size: calc(1.75rem + 2vw) ;
-    }
-    .subtitle {
-        font-size: calc(1.75rem + 4vw) ;
-    }
 }
+
 
 @media screen and (max-width: 640px) {
     .homeImage {

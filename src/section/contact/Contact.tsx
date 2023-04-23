@@ -1,6 +1,6 @@
 import * as React from 'react';
 import contactStyle from './Contact.module.css'
-import containerStyle from "../../common/style/Container.module.css";
+import containerStyle from "../../common/container/Container.module.css";
 
 type Props = {
 

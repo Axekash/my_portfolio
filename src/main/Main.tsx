@@ -1,6 +1,6 @@
 import * as React from 'react';
 import mainStyles from './Main.module.css'
-import containerStyle from "../common/style/Container.module.css";
+import containerStyle from "../common/container/Container.module.css";
 import {Home} from "../section/home/Home";
 
 type Props = {

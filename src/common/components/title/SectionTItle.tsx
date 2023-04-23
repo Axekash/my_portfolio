@@ -1,6 +1,4 @@
 import * as React from 'react';
-import containerStyle from './style/Container.module.css'
-import aboutMeStyle from "../section/about me/AboutMe.module.css";
 import skillsSectionStyle from './SectionTitle.module.css'
 
 

@@ -16,7 +16,7 @@ export const Home = (props: Props) => {
                 <button className={homeStyle.whiteButton}>Contact me</button>
             </div>
             <div className={homeStyle.homeImage}
-                 //style={{backgroundImage: `url(${image})` as any, backgroundRepeat: 'no-repeat'}}
+                 //container={{backgroundImage: `url(${image})` as any, backgroundRepeat: 'no-repeat'}}
                 style={{background: `url(${image}) center center/cover no-repeat`}}
             >
                 {/*<img src={image} alt=""/>*/}

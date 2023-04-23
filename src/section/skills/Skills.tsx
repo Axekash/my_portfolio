@@ -1,7 +1,7 @@
 import * as React from 'react';
 import skillsStyle from './Skills.module.css'
-import {SectionTItle} from "../../common/SectionTItle";
-import containerStyle from "../../common/style/Container.module.css";
+import {SectionTItle} from "../../common/components/title/SectionTItle";
+import containerStyle from "../../common/container/Container.module.css";
 import { Skill } from './skill/Skill';
 
 type Props = {
