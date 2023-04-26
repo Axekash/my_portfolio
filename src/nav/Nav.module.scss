@@ -1,0 +1,25 @@
+.nav {
+    width: 45vw;
+    display: flex;
+    justify-content: space-between;
+    a {
+        font-weight: 600;
+        text-decoration: none;
+        color: #252b33;
+        text-transform: uppercase;
+        font-size: 1.1rem;
+        position: relative;
+        transition: 3s;
+        &:hover {
+            &::before {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                background: #f5df4e;
+                width: 100%;
+                height: 4px;
+
+            }
+        }
+    }
+}

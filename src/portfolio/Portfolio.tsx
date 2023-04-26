@@ -1,12 +1,12 @@
-import * as React from 'react';
-import portfolioStyle from './Portfolio.module.css'
+import * as React from "react";
+import portfolioStyle from "./Portfolio.module.css"
 import containerStyle from "../common/container/Container.module.css";
 import {SectionTItle} from "../common/components/title/SectionTItle";
 import {Project} from "./project/Project";
-import project1Img from '../common/image/project-1.jpg'
-import project2Img from '../common/image/project-2.jpg'
-import project3Img from '../common/image/project-3.jpg'
-import projectSocialNetwork from '../common/image/Social-Networking-Apps.png'
+import project1Img from "../assets/image/project-1.jpg"
+import project2Img from "../assets/image/project-2.jpg"
+import project3Img from "../assets/image/project-3.jpg"
+import projectSocialNetwork from "../assets/image/Social-Networking-Apps.png"
 
 type Props = {
 

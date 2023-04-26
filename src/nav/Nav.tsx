@@ -1,5 +1,5 @@
 import * as React from 'react';
-import navStyle from './Nav.module.css'
+import navStyle from './Nav.module.scss'
 
 type Props = {};
 export const Nav = (props: Props) => {

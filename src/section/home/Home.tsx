@@ -1,6 +1,6 @@
 import * as React from 'react';
 import homeStyle from './Home.module.css'
-import image from '../../common/image/userImage.jpeg'
+import image from '../../assets/image/userImage.jpeg'
 
 type Props = {
 
