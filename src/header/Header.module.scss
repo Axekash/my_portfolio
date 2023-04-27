@@ -19,4 +19,18 @@
             text-transform: uppercase;
         }
     }
+    @media screen and (max-width: 992px) {
+        .wrapper{
+            .userName {
+                font-size: 1.6rem;
+            }
+        }
+    }
+    //@media screen and (max-width: 862px) {
+    //    .wrapper{
+    //        .userName {
+    //            font-size: 1.2rem;
+    //        }
+    //    }
+    //}
 }
