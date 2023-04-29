@@ -1,7 +1,7 @@
 .aboutMe {
     padding: 6.5rem 0;
 }
-.wrapper {
+.wrapperBlock1 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -53,11 +53,23 @@
 }
 .wrapper_box h3 {
     font-size: 1.7rem;
+    font-weight: 500;
 }
+.wrapper_box h3 span {
+    font-weight: 900;
+}
+.wrapperBlock2 {
+    display: flex;
+    margin-top: 1.5rem
+}
+
 
 @media screen and (max-width: 1046px) {
     .wrapper {
         justify-content: center;
         text-align: center;
+    }
+    .wrapperBlock2 {
+        flex-wrap: wrap;
     }
 }
