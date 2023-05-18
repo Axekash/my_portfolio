@@ -31,12 +31,12 @@ export const Skills = (props: Props) => {
             <div className={containerStyle.container}>
                 <SectionTItle sectionTitle={'Skills'} header={'I work in ...'}/>
                 <div className={skillsStyle.skills_wrapper}>
-                    <Skill imgText={"HTML"} title={"HTML"} description={htmlDescr} icon={htmlIcon} />
-                    <Skill imgText={"CSS"} title={"CSS"} description={cssDescr} icon={cssIcon} />
-                    <Skill imgText={"JS"} title={"JS"} description={jsDescr} icon={jsIcon}/>
-                    <Skill imgText={"Typescript"} title={"Typescript"} description={typescriptDescr} icon={tsIcon}/>
                     <Skill imgText={"React"} title={"React"} description={reactDescr} icon={reactIcon}/>
                     <Skill imgText={"Redux"} title={"Redux"} description={reduxDescr} icon={reduxIcon} />
+                    <Skill imgText={"JS"} title={"JS"} description={jsDescr} icon={jsIcon}/>
+                    <Skill imgText={"Typescript"} title={"Typescript"} description={typescriptDescr} icon={tsIcon}/>
+                    <Skill imgText={"HTML"} title={"HTML"} description={htmlDescr} icon={htmlIcon} />
+                    <Skill imgText={"CSS"} title={"CSS"} description={cssDescr} icon={cssIcon} />
                 </div>
             </div>
         </section>
